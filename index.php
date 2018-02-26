@@ -543,7 +543,7 @@
                             <div class="col-md-3">
                                 <div class="section-box">
                                     <div class="section-icon-container">
-                                        <img src="images/courses/soa.png" alt="">
+                                        <img src="images/courses/soa_i.png" alt="">
                                     </div>
                                     <div class="section-heading">
                                         <p>Oracle Applications</p>
