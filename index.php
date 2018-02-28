@@ -779,6 +779,13 @@
                 <i class="fa fa-angle-up"></i>
             </a>
         </div>
+        <div id="quickcontact">
+            <div class="qc_icon"><i class="fa fa-envelope icon"></i></div>
+            <div class="qc_box">
+                <div w3-include-html="shared/contact-form.html"></div>
+                <span class="text-center no-margin btn-block close_qc c_pointer">Not Now</span>
+            </div>
+        </div>
         <div tabindex="-1" class="modal fade pop-up-1" id="gallery_modal" role="dialog">
             <div class="modal-dialog">
                 <div class="modal-content">
@@ -827,6 +834,9 @@
             });
             $('#pop-up-1').on('hidden.bs.modal', function () {
                 $(this).find('.modal-body iframe').attr('src', '');
+            })
+            $('.qc_icon,.close_qc').click(function(){
+                $('.qc_box').slideToggle();
             })
         </script>
     </body>
