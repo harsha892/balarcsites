@@ -43,7 +43,9 @@ a:visited {
 section {
     padding: 70px 0;
 }
-
+.watchcourse-template{
+    padding: 20px 0;
+}
 strong {
     color: #222222;
 }
@@ -580,7 +582,9 @@ hr.stripe {
     -ms-border-radius: 3px;
     border-radius: 3px;
 }
-
+.stripe.auto-margin:after{
+    margin: 11px 0 0 0;
+}
 .tabs-intro {
     padding: 0;
 }
@@ -731,8 +735,23 @@ hr.stripe {
 
 .courses-offered .section-box {
     min-height: 382px;
+    margin-bottom: 8px;
 }
-
+.video-courses .section-box {
+    min-height: 450px;
+    margin-bottom: 8px;
+    padding: 0;
+    position: relative;
+}
+.video-courses .section-box .section-heading{
+    padding: 15px;
+}
+.video-courses .section-box .btn{
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
 .service_page .section-box {
     min-height: 168px;
 }
@@ -1712,7 +1731,9 @@ footer .footer-btm .copyright a {
 .bg-primary:hover {
     background: #191c75;
 }
-
+a.bg-primary:hover, a.bg-primary:focus{
+    background: #191c75;
+}
 .carousel-control {
     padding-top: 6%;
     width: 5%;
@@ -1845,4 +1866,45 @@ footer .footer-btm .copyright a {
 }
 .c_pointer{
     cursor: pointer;
+}
+.mb-8{
+    margin-bottom: 8px;
+}
+.mb-0{
+    margin-bottom: 0px; 
+}
+.br-radius-0{
+    border-radius: 0%
+}
+.text-uppercase{
+    text-transform: uppercase;
+}
+.stright_line{
+    display: inline-block;
+    position: relative;
+    padding: 5px;
+    width: 100%;
+}
+.more_btn{
+    display: inline-block;
+    position: relative;
+    background-color: #191c75;
+    color: #fff;
+    padding: 20px 10px;
+    z-index: 1;
+    border-radius: 5px;
+    margin-top: 25px;
+    width: 12%;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.stright_line:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    background-color: #191c75;
+    left: 0;
+    right: 0;
+    top: 49%;
 }

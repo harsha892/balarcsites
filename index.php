@@ -413,7 +413,7 @@
             </section>
             <!-- Corporate img -->
             <!-- courses offered -->
-            <section class="courses-offered">
+            <section id="courses">
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-12">
@@ -424,161 +424,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xs-12">
-                        <div class="row">
-                            <div class="col-md-3">
-                                <div class="section-box">
-                                    <div class="section-icon-container">
-                                        <img src="images/courses/tech_ebs.png" alt="">
-                                    </div>
-                                    <div class="section-heading">
-                                        <p>Oracle Applications</p>
-                                        <hr class="stripe  mr-auto">
-                                        <br>
-                                        <div class="clearfix"></div>
-                                        <h1 class="section-title">Techno Functional
-                                            <br>
-                                            <small>EBS</small>
-                                        </h1>
-                                    </div>
-                                    <div class="section-content">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="section-box">
-                                    <div class="section-icon-container">
-                                        <img src="images/courses/fusion_financials.png" alt="">
-                                    </div>
-                                    <div class="section-heading">
-                                        <p>Oracle Applications</p>
-                                        <hr class="stripe  mr-auto">
-                                        <br>
-                                        <div class="clearfix"></div>
-                                        <h1 class="section-title">Fusion Financials</h1>
-                                    </div>
-                                    <div class="section-content">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="section-box">
-                                    <div class="section-icon-container">
-                                        <img src="images/courses/scm.png" alt="">
-                                    </div>
-                                    <div class="section-heading">
-                                        <p>Oracle Applications</p>
-                                        <hr class="stripe  mr-auto">
-                                        <br>
-                                        <div class="clearfix"></div>
-                                        <h1 class="section-title">Fusion SCM
-                                            <br>
-                                            <small>Supply Chain Management</small>
-                                        </h1>
-                                    </div>
-                                    <div class="section-content">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="section-box">
-                                    <div class="section-icon-container">
-                                        <img src="images/courses/hcm.png" alt="">
-                                    </div>
-                                    <div class="section-heading">
-                                        <p>Oracle Applications</p>
-                                        <hr class="stripe  mr-auto">
-                                        <br>
-                                        <div class="clearfix"></div>
-                                        <h1 class="section-title">Fusion HCM
-                                            <br>
-                                            <small>Human Capital Management</small>
-                                        </h1>
-                                    </div>
-                                    <div class="section-content">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <br>
-                        <div class="row">
-                            <div class="col-md-3">
-                                <div class="section-box">
-                                    <div class="section-icon-container">
-                                        <img src="images/courses/oaf.png" alt="">
-                                    </div>
-                                    <div class="section-heading">
-                                        <p>Oracle Applications</p>
-                                        <hr class="stripe  mr-auto">
-                                        <br>
-                                        <div class="clearfix"></div>
-                                        <h1 class="section-title">OAF
-                                            <br>
-                                            <small>Oracle Applications Framework</small>
-                                        </h1>
-                                    </div>
-                                    <div class="section-content">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="section-box">
-                                    <div class="section-icon-container">
-                                        <img src="images/courses/adf.png" alt="">
-                                    </div>
-                                    <div class="section-heading">
-                                        <p>Oracle Applications</p>
-                                        <hr class="stripe  mr-auto">
-                                        <br>
-                                        <div class="clearfix"></div>
-                                        <h1 class="section-title">ADF
-                                            <br>
-                                            <small>Oracle Development Framework</small>
-                                        </h1>
-                                    </div>
-                                    <div class="section-content">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="section-box">
-                                    <div class="section-icon-container">
-                                        <img src="images/courses/soa_i.png" alt="">
-                                    </div>
-                                    <div class="section-heading">
-                                        <p>Oracle Applications</p>
-                                        <hr class="stripe  mr-auto">
-                                        <br>
-                                        <div class="clearfix"></div>
-                                        <h1 class="section-title">SOA
-                                            <br>
-                                            <small>SERVICE ORIENTED ARCHITECHTURE</small>
-                                        </h1>
-                                    </div>
-                                    <div class="section-content">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="section-box">
-                                    <div class="section-icon-container">
-                                        <img src="images/courses/SQL_PLSQL.png" alt="">
-                                    </div>
-                                    <div class="section-heading">
-                                        <p>Oracle Applications</p>
-                                        <hr class="stripe  mr-auto">
-                                        <br>
-                                        <div class="clearfix"></div>
-                                        <h1 class="section-title">SQL/PLSQL</h1>
-                                    </div>
-                                    <div class="section-content">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </section>
+            <div w3-include-html="shared/courses.html"></div>
             <!-- courses offered -->
             <!-- Video Tutorials -->
             <section class="courses-offered">
@@ -593,7 +441,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div id="videoCarousel" class="carousel slide">
+                        <div id="videoCarousel" class="carousel slide mb-8">
                             <!-- Carousel items -->
                             <div class="carousel-inner">
                                 <div class="item active">
@@ -672,6 +520,11 @@
 
                             <a class="right carousel-control" href="#videoCarousel" data-slide="next">›</a>
                         </div>
+                        <div class="section-title align-center col-md-12">
+                            <a href="video-tutorials.html" class="">
+                                <span class="more_btn">View More</span>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -682,7 +535,8 @@
                     <div class="row">
                         <div class="col-xs-12">
                             <div class="section-title align-center col-md-12">
-                                <h2 class="stripe">Test<span class="color-2">imonials</span>
+                                <h2 class="stripe">Test
+                                    <span class="color-2">imonials</span>
                                 </h2>
                             </div>
                         </div>
@@ -767,6 +621,11 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="section-title align-center col-md-12">
+                            <a href="video-tutorials.html" class="">
+                                <span class="more_btn">View More</span>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -780,7 +639,9 @@
             </a>
         </div>
         <div id="quickcontact">
-            <div class="qc_icon"><i class="fa fa-envelope icon"></i></div>
+            <div class="qc_icon">
+                <i class="fa fa-envelope icon"></i>
+            </div>
             <div class="qc_box">
                 <div w3-include-html="shared/contact-form.html"></div>
                 <span class="text-center no-margin btn-block close_qc c_pointer">Not Now</span>
@@ -835,7 +696,7 @@
             $('#pop-up-1').on('hidden.bs.modal', function () {
                 $(this).find('.modal-body iframe').attr('src', '');
             })
-            $('.qc_icon,.close_qc').click(function(){
+            $('.qc_icon,.close_qc').click(function () {
                 $('.qc_box').slideToggle();
             })
         </script>

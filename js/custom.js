@@ -10,3 +10,6 @@
       $('html, body').animate({ scrollTop: 0 }, 800);
       return false;
   });
+  $('.navbar-nav li a').click(function(){
+    $(this).addClass('active');
+});
