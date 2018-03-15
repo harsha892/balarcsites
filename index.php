@@ -622,7 +622,7 @@
                             </div>
                         </div>
                         <div class="section-title align-center col-md-12">
-                            <a href="video-tutorials.html" class="">
+                            <a href="testimonial.html" class="">
                                 <span class="more_btn">View More</span>
                             </a>
                         </div>

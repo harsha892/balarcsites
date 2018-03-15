@@ -1908,3 +1908,11 @@ a.bg-primary:hover, a.bg-primary:focus{
     right: 0;
     top: 49%;
 }
+
+.testimonial_widget .media{
+    margin-bottom: 8px;
+    border-bottom: 2px solid #191c75;
+}
+.testimonial_widget .media:last-child{
+    border-bottom: 0px;
+}
